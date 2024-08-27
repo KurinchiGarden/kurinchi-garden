@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kurinchi-garden/static/css/main.e6c13ad2.css",
+    "main.js": "/kurinchi-garden/static/js/main.a9b49ead.js",
+    "static/js/453.9c8911c0.chunk.js": "/kurinchi-garden/static/js/453.9c8911c0.chunk.js",
+    "index.html": "/kurinchi-garden/index.html",
+    "main.e6c13ad2.css.map": "/kurinchi-garden/static/css/main.e6c13ad2.css.map",
+    "main.a9b49ead.js.map": "/kurinchi-garden/static/js/main.a9b49ead.js.map",
+    "453.9c8911c0.chunk.js.map": "/kurinchi-garden/static/js/453.9c8911c0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.a9b49ead.js"
+  ]
+}
