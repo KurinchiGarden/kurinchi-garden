@@ -6,7 +6,7 @@ const Header = () => {
     <header>
       <nav className="w-10/12 m-auto flex p-10 ">
         <h2 className="w-2/4">Kurinchi Garden</h2>
-        <ul className="flex justify-evenly w-2/4 flex-col md:flex-row ">
+        <ul className="justify-evenly w-2/4 flex-col hidden md:visible md:flex md:flex-row ">
           <li>
             <a href="#about">About</a>
           </li>
