@@ -31,7 +31,7 @@ const About = () => {
             return (
               <div className=" md:w-1/3 h-72 flex flex-col justify-center items-center m-2 ">
                 <img
-                  className="w-5/6 h-5/6 object-cover rounded-full"
+                  className="md:w-5/6 h-5/6 object-cover rounded-full"
                   src={x.image}
                   alt="school"
                 />
