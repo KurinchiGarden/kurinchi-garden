@@ -7,7 +7,7 @@ const Header = () => {
     <header className="bg-black text-slate-300 text-gray">
       <div className="w-11/12 md:w-10/12 m-auto">
         <nav className="flex justify-between pt-5 pb-5 md:p-10  ">
-          <h2 className="md:w-2/4 font-semibold text-2xl ">
+          <h2 className="md:w-2/4 font-semibold text-2xl">
             <span className="text-yellow">Kurinchi</span>{" "}
             <span className="">Garden</span>
           </h2>
@@ -41,30 +41,26 @@ const Header = () => {
                 Forget all difficulties in finding a residence for you <br />
                 We are in{" "}
                 <span className="italic font-semibold text-yellow">
-                  Kasbapettai Erode
-                </span>{" "}
+                  Kasbapettai Erode{" "}
+                </span>
                 via Poondurai Road
               </p>
-              {/* <div className="flex mt-3 items-center">
-                <p className="w-[2rem] text-2xl ">
-                  <FaLocationDot size={20} />
-                </p>
-                <p className="">Poondurai Road, Kasbapettai Erode</p>
-              </div> */}
-              <div className="w-9/12 flex mt-3 justify-between items-center ">
+              <div className="w-11/12 md:w-9/12 flex mt-3 gap-2 justify-between items-center ">
                 <div className="flex flex-col justify-center items-center">
-                  <span>7</span>
-                  <span>Acres</span>
+                  <span>Area</span>
+                  <span>7 Acres</span>
                 </div>
-
                 <div className="flex flex-col justify-center items-center">
+                  <span>Units</span>
                   <span>119</span>
-                  <span>Plots</span>
                 </div>
-
                 <div className="flex flex-col justify-center items-center">
-                  <span>540/2023</span>
+                  <span>Plot Sizes</span>
+                  <span>600 - 3400 Sq.Ft</span>
+                </div>
+                <div className="flex flex-col justify-center items-center">
                   <span>DTCP No</span>
+                  <span>540/2023</span>
                 </div>
               </div>
             </div>
