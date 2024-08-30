@@ -1,10 +1,10 @@
 import About from "./components/About";
 import Footer from "./components/Footer";
+import Gallery from "./components/Gallery";
 import Header from "./components/Header";
 import Map from "./components/Map";
+import PartnerShip from "./components/PartnerShip";
 import Service from "./components/Service";
-import SiteMap from "./components/SiteMap";
-import Sites from "./components/Sites";
 
 function App() {
   return (
@@ -12,8 +12,8 @@ function App() {
       <Header />
       <About />
       <Service />
-      <SiteMap />
-      <Sites />
+      <Gallery />
+      <PartnerShip />
       <Map />
       <Footer />
     </main>
