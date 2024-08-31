@@ -1,5 +1,5 @@
 import React from "react";
-import { FaPhoneFlip } from "react-icons/fa6";
+import { FaPhoneVolume } from "react-icons/fa6";
 import images from "../assets";
 
 const Header = () => {
@@ -13,7 +13,7 @@ const Header = () => {
           </h2>
           <div className="flex justify-center items-center text-xl pr-5 md:hidden  ">
             <a href="tel:+919750268888">
-              <FaPhoneFlip color="#609966" />
+              <FaPhoneVolume color="#609966" />
             </a>
           </div>
           <ul className="justify-evenly w-2/4 flex-col hidden md:visible md:flex md:flex-row ">
@@ -32,9 +32,9 @@ const Header = () => {
           <div className="md:w-2/4 flex justify-center items-center flex-col">
             <div className="w-full mt-3 md:w-3/4">
               <div className="mb-4 md:mb-8 ">
-                <h3 className="text-2xl font-bold">Discover</h3>
-                <h1 className="text-2xl font-bold">Most Suitable </h1>
-                <h3 className="text-2xl font-bold">Property</h3>
+                <h3 className="text-2xl font-bold">Unlock</h3>
+                <h1 className="text-2xl font-bold">A Life of </h1>
+                <h3 className="text-2xl font-bold">Happiness</h3>
               </div>
               <p className="text-sm">
                 Find a variety of properties that suit you very easily <br />
@@ -45,8 +45,8 @@ const Header = () => {
                 </span>
                 via Poondurai Road
               </p>
-              <div className="w-11/12 md:w-9/12 flex mt-3 gap-2 justify-between items-center ">
-                <div className="flex flex-col justify-center items-center">
+              <div className="w-full md:w-9/12 flex mt-3 gap-2 justify-between items-center ">
+                <div className="flex flex-col justify-center items-center md:hidden">
                   <span>Area</span>
                   <span>7 Acres</span>
                 </div>
