@@ -32,9 +32,9 @@ const Header = () => {
           <div className="md:w-2/4 flex justify-center items-center flex-col">
             <div className="w-full mt-3 md:w-3/4">
               <div className="mb-4 md:mb-8 ">
-                <h3 className="text-2xl font-bold">Unlock</h3>
-                <h1 className="text-2xl font-bold">A Life of </h1>
-                <h3 className="text-2xl font-bold">Happiness</h3>
+                <h3 className="text-2xl font-bold">Unlock </h3>
+                <h1 className="text-2xl font-bold">A Life of Happiness</h1>
+                {/* <h3 className="text-2xl font-bold"></h3> */}
               </div>
               <p className="text-sm">
                 Find a variety of properties that suit you very easily <br />
