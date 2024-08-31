@@ -22,7 +22,7 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="bg-gray text-black">
+    <section id="about" className="bg-darkSage text-darkGreen">
       <div className=" w-11/12 md:w-10/12 m-auto pt-10 pb-10  ">
         <div className="flex flex-col justify-center items-center">
           <h3 className="">Three steps. Three minutes.</h3>
@@ -39,7 +39,7 @@ const About = () => {
                   src={x.image}
                   alt={x.label}
                 />
-                <h3 className="text-center font-semibold p-2 border rounded-2xl border-lightBlack w-full">
+                <h3 className="text-center font-semibold p-2 border rounded-2xl border-green w-full">
                   {x.label}
                 </h3>
               </div>

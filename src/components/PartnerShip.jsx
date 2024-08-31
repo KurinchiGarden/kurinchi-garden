@@ -23,7 +23,7 @@ const PartnerShip = () => {
   ];
 
   return (
-    <section className="bg-black text-gray">
+    <section className="bg-sage text-darkGreen">
       <div className="w-11/12 md:w-10/12 m-auto pt-10 pb-10 ">
         <div className="mb-10 ">
           <h1 className="font-bold text-2xl text-center ">
@@ -32,7 +32,7 @@ const PartnerShip = () => {
         </div>
         <div className="flex flex-col justify-center items-center">
           <button
-            className="border p-4 rounded-lg mb-3 bg-yellow text-black "
+            className="border p-4 rounded-lg mb-3 bg-green text-sage "
             onClick={() => window.open(Brochure)}
           >
             Get Brochure

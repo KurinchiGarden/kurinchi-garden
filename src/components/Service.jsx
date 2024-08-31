@@ -48,9 +48,9 @@ const Service = () => {
   ];
 
   return (
-    <section id="service" className="bg-black text-gray">
+    <section id="service" className="bg-sage text-darkGreen">
       <div className="w-11/12 md:w-10/12 m-auto pt-5 md:p-10  ">
-        <h2 className="text-center text-yellow">Our Value</h2>
+        <h2 className="text-center text-darkGreen">Our Value</h2>
         <h1 className="text-center font-bold text-2xl m-5">
           Value We Give to You
         </h1>
@@ -60,7 +60,7 @@ const Service = () => {
         </p>
         <div className="flex flex-col  md:flex-row  ">
           <div className="p-5 md:w-1/2 flex justify-center items-center ">
-            <div className="w-11/12 border-8 border-lightBlack overflow-hidden rounded-tl-[15rem] rounded-tr-[15rem] ">
+            <div className="w-11/12 border-8 border-darkGreen overflow-hidden rounded-tl-[15rem] rounded-tr-[15rem] ">
               <img src={images.sampleHome} alt="sampleHome" />
             </div>
           </div>
@@ -68,8 +68,8 @@ const Service = () => {
             <ul>
               {features.map((x) => {
                 return (
-                  <li className="border border-lightBlack bg-lightBlack rounded-md p-1 m-1">
-                    <span className="text-yellow">{x.label}</span>{" "}
+                  <li className="border border-green bg-sage rounded-md p-1 m-1">
+                    <span className="text-green">{x.label}</span>{" "}
                     {x?.description}
                   </li>
                 );
