@@ -34,7 +34,6 @@ const Header = () => {
               <div className="mb-4 md:mb-8 ">
                 <h3 className="text-2xl font-bold">Unlock </h3>
                 <h1 className="text-2xl font-bold">A Life of Happiness</h1>
-                {/* <h3 className="text-2xl font-bold"></h3> */}
               </div>
               <p className="text-sm">
                 Find a variety of properties that suit you very easily <br />
@@ -45,28 +44,28 @@ const Header = () => {
                 </span>
                 via Poondurai Road
               </p>
-              <div className="w-full md:w-9/12 flex mt-3 gap-2 justify-between items-center ">
-                <div className="flex flex-col justify-center items-center md:hidden">
-                  <span>Area</span>
+              <div className="w-full md:w-9/12 flex mt-3 gap-2 p-2 justify-between items-start shadow-lg rounded-lg ">
+                <div className="flex flex-col">
+                  <span className="text-green font-semibold">Area</span>
                   <span>7 Acres</span>
                 </div>
-                <div className="flex flex-col justify-center items-center">
-                  <span>Units</span>
+                <div className="flex flex-col">
+                  <span className="text-green font-semibold">Units</span>
                   <span>119</span>
                 </div>
-                <div className="flex flex-col justify-center items-center">
-                  <span>Plot Sizes</span>
+                <div className="flex flex-col">
+                  <span className="text-green font-semibold">Plot Sizes</span>
                   <span>600 - 3400 Sq.Ft</span>
                 </div>
-                <div className="flex flex-col justify-center items-center">
+                {/* <div className="flex flex-col justify-center items-center">
                   <span>DTCP No</span>
                   <span>540/2023</span>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
           <div className="p-5 md:w-2/4 flex justify-center items-center ">
-            <div className="w-11/12 border-darkGreen border-8 overflow-hidden rounded-tl-[15rem] rounded-tr-[15rem] ">
+            <div className="w-11/12 border-darkGreen border-8 overflow-hidden rounded-tl-[15rem] rounded-tr-[15rem] rounded-lg">
               <img className="" src={images.logo} alt="logo" />
             </div>
           </div>

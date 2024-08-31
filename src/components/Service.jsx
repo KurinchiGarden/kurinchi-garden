@@ -1,5 +1,4 @@
 import React from "react";
-import images from "../assets";
 
 const Service = () => {
   const features = [
@@ -58,10 +57,28 @@ const Service = () => {
           We always ready to help by providijng the best services for you. We
           beleive a good place to live can make your life better
         </p>
-        <div className="flex flex-col  md:flex-row  ">
+        <div className="flex flex-col  md:flex-row">
           <div className="p-5 md:w-1/2 flex justify-center items-center ">
-            <div className="w-11/12 border-8 border-darkGreen overflow-hidden rounded-tl-[15rem] rounded-tr-[15rem] ">
-              <img src={images.sampleHome} alt="sampleHome" />
+            <div className="w-full h-2/4 flex flex-col justify-center items-center">
+              <div className="p-6 rounded-lg shadow-lg overflow-hidden max-w-4xl w-full mx-4 ">
+                <h2 className="text-2xl font-semibold mb-4 ">
+                  Government Approvals
+                </h2>
+                <table className="w-full text-left">
+                  <thead>
+                    <tr className="border-b border-green">
+                      <th className="py-3 pr-4">DTCP NO</th>
+                      <th className="py-3 pr-4">RERA</th>
+                    </tr>
+                  </thead>
+                  <tbody className="">
+                    <tr className="border-b border-green">
+                      <td className="py-3 pr-4">540/2023</td>
+                      <td className="py-3 pr-4">Approved</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
           <div className="p-5 md:w-1/2">
