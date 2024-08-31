@@ -5,7 +5,7 @@ const Footer = () => {
     <section id="contact" className="bg-sage text-darkGreen">
       <div className="w-11/12 md:w-10/12 m-auto ">
         <div className="flex flex-col justify-center items-center">
-          <h3 className="mt-3 ">Contacts Us</h3>
+          <h3 className="mt-3 text-green">Contacts Us</h3>
           <h1 className="font-bold text-2xl m-3 text-center ">
             Easy to connect with us
           </h1>
@@ -15,7 +15,7 @@ const Footer = () => {
           beleive a good blace to live can make your life better
         </p>
         <div className="m-2 ">
-          <ul className="w-11/12 m-auto items-center flex justify-evenly ">
+          <ul className="w-11/12 m-auto items-center flex justify-evenly text-green">
             <li className="">
               <a href="tel:+919750268888">97502 68888</a>
             </li>

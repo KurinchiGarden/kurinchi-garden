@@ -8,11 +8,12 @@ const Header = () => {
       <div className="w-11/12 md:w-10/12 m-auto">
         <nav className="flex justify-between pt-5 pb-5 md:p-10  ">
           <h2 className="md:w-2/4 font-semibold text-2xl">
-            <span className="">Kurinchi</span> <span className="">Garden</span>
+            <span className="text-green">Kurinchi</span>{" "}
+            <span className="">Garden</span>
           </h2>
           <div className="flex justify-center items-center text-xl pr-5 md:hidden  ">
             <a href="tel:+919750268888">
-              <FaPhoneFlip color="" />
+              <FaPhoneFlip color="#609966" />
             </a>
           </div>
           <ul className="justify-evenly w-2/4 flex-col hidden md:visible md:flex md:flex-row ">
@@ -39,7 +40,7 @@ const Header = () => {
                 Find a variety of properties that suit you very easily <br />
                 Forget all difficulties in finding a residence for you <br />
                 We are in{" "}
-                <span className="italic font-semibold ">
+                <span className="italic font-semibold text-green">
                   Kasbapettai Erode{" "}
                 </span>
                 via Poondurai Road
