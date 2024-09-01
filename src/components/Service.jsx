@@ -67,7 +67,7 @@ const Service = () => {
 
   return (
     <section id="service" className="bg-sage text-darkGreen">
-      <div className="w-11/12 md:w-10/12 m-auto pt-5 md:p-10">
+      <div className="w-11/12 md:w-10/12 m-auto pt-8 pb-8 md:p-10">
         <h2 className="text-center text-green">Our Value</h2>
         <h1 className="text-center font-bold text-2xl m-5">
           Value We Give to You
