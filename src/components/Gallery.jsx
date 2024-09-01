@@ -3,7 +3,7 @@ import SampleVideo from "../assets/video/SampleVideo.mp4";
 
 const Gallery = () => {
   return (
-    <section className="bg-darkSage text-darkGreen">
+    <section id="gallery" className="bg-darkSage text-darkGreen">
       <div className=" w-11/12 md:w-10/12 m-auto pt-10 pb-10  ">
         <div className="mb-10 ">
           <h1 className="font-bold text-2xl text-center">Gallery</h1>
