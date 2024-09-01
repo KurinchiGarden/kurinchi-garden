@@ -61,9 +61,6 @@ const Service = () => {
           <div className="p-5 md:w-1/2 flex justify-center items-center ">
             <div className="w-full h-2/4 flex flex-col justify-center items-center">
               <div className="p-6 rounded-lg shadow-lg overflow-hidden max-w-4xl w-full mx-4 ">
-                {/* <h2 className="text-2xl font-semibold mb-4 ">
-                  Government Approvals
-                </h2> */}
                 <table className="w-full text-left">
                   <thead>
                     <tr className="border-b border-green">
@@ -75,14 +72,6 @@ const Service = () => {
                       <th className="py-3 pr-4">Approved</th>
                     </tr>
                   </thead>
-                  {/* <tbody className="">
-                    <tr className="border-b border-green">
-                      <td className="py-3 pr-4">540/2023</td>
-                    </tr>
-                    <tr className="border-b border-green">
-                      <td className="py-3 pr-4">Approved</td>
-                    </tr>
-                  </tbody> */}
                 </table>
               </div>
             </div>

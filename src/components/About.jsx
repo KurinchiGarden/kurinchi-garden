@@ -4,19 +4,19 @@ import images from "../assets";
 const About = () => {
   const amenity = [
     {
-      image: images.school1,
+      image: images.school,
       label: "School",
     },
     {
-      image: images.busStand1,
+      image: images.busStand,
       label: "Bus Stand",
     },
     {
-      image: images.superMarket1,
+      image: images.superMarket,
       label: "Super Market",
     },
     {
-      image: images.bank11,
+      image: images.bank,
       label: "Bank",
     },
   ];
@@ -33,16 +33,26 @@ const About = () => {
         <div className="flex flex-col md:flex-row gap-3">
           {amenity.map((x) => {
             return (
-              <div className=" md:w-1/3 h-72 flex flex-col  overflow-hidden justify-center items-center m-2 rounded-2xl  ">
+              <div className=" md:w-1/3 flex flex-col  overflow-hidden justify-center items-center m-2 rounded-2xl shadow-xl">
                 <img
-                  className="h-[85%] md:h-[90%] w-full rounded object-fit"
+                  className="h-[85%] md:h-full w-full rounded object-contain"
                   src={x.image}
                   alt={x.label}
                 />
-                <h3 className="text-center font-semibold p-2 border rounded-2xl border-green w-full">
+                <h3 className="text-center font-semibold p-2  w-full">
                   {x.label}
                 </h3>
               </div>
+              // <div className=" md:w-1/3 h-72 flex flex-col  overflow-hidden justify-center items-center m-2 rounded-2xl  ">
+              //   <img
+              //     className="h-[85%] md:h-[90%] w-full rounded object-fit"
+              //     src={x.image}
+              //     alt={x.label}
+              //   />
+              //   <h3 className="text-center font-semibold p-2 border rounded-2xl border-green w-full">
+              //     {x.label}
+              //   </h3>
+              // </div>
             );
           })}
         </div>

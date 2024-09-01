@@ -7,9 +7,11 @@ const Header = () => {
     <header className="bg-sage text-slate-300 text-darkGreen">
       <div className="w-11/12 md:w-10/12 m-auto">
         <nav className="flex justify-between pt-5 pb-5 md:p-10  ">
-          <h2 className="md:w-2/4 font-semibold text-2xl">
+          <h2 className="md:w-2/4 font-semibold text-2xl static">
             <span className="text-green">Kurinchi</span>{" "}
             <span className="">Garden</span>
+            <br />
+            <span className="text-sm absolute">Dream into Reality</span>
           </h2>
           <div className="flex justify-center items-center text-xl pr-5 md:hidden  ">
             <a href="tel:+919750268888">
@@ -57,16 +59,12 @@ const Header = () => {
                   <span className="text-green font-semibold">Plot Sizes</span>
                   <span>600 - 3400 Sq.Ft</span>
                 </div>
-                {/* <div className="flex flex-col justify-center items-center">
-                  <span>DTCP No</span>
-                  <span>540/2023</span>
-                </div> */}
               </div>
             </div>
           </div>
           <div className="p-5 md:w-2/4 flex justify-center items-center ">
             <div className="w-11/12 border-darkGreen border-8 overflow-hidden rounded-tl-[15rem] rounded-tr-[15rem] rounded-lg">
-              <img className="" src={images.logo} alt="logo" />
+              <img className="" src={images.home} alt="logo" />
             </div>
           </div>
         </div>

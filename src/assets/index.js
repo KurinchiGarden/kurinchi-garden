@@ -1,27 +1,27 @@
-import logo from "./images/home1.jpg";
-import sampleHome from "./images/home2.jpg";
+import home from "./images/home.jpg";
 import hdfc from "./images/hdfc.png";
 import axis from "./images/axis.png";
-import bob from "./images/bob.png";
 import pnb from "./images/pnb.png";
-import bob1 from "./images/bob1.png";
-import school1 from "./images/school2.svg";
-import busStand1 from "./images/busStand2.svg";
-import superMarket1 from "./images/superMarket2.svg";
-import bank11 from "./images/bank2.svg";
+import bob from "./images/bob.png";
+// import school from "./images/school.svg";
+// import busStand from "./images/busStand.svg";
+// import superMarket from "./images/superMarket.svg";
+// import bank from "./images/bank.svg";
+import school from "./images/test/school.png";
+import busStand from "./images/test/busStand.png";
+import superMarket from "./images/test/shops.png";
+import bank from "./images/test/bank.png";
 
 const images = {
-  logo,
-  sampleHome,
+  home,
   hdfc,
   axis,
-  bob,
   pnb,
-  bob1,
-  school1,
-  busStand1,
-  superMarket1,
-  bank11,
+  bob,
+  school,
+  busStand,
+  superMarket,
+  bank,
 };
 
 export default images;

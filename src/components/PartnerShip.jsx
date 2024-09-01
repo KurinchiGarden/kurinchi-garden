@@ -18,7 +18,7 @@ const PartnerShip = () => {
     },
     {
       label: "bob",
-      link: images.bob1,
+      link: images.bob,
     },
   ];
 
