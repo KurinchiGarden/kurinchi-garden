@@ -38,7 +38,8 @@ const Header = () => {
             <div className="w-full m-5">
               <div className="mb-4">
                 <h3 className="text-2xl font-bold">
-                  The Best Investment on Earth is Earth{" "}
+                  Unlock A <br />
+                  Life of Happiness{" "}
                 </h3>
               </div>
               <p className="text-sm mb-4">
@@ -49,7 +50,7 @@ const Header = () => {
                 presenting a harmonious blend of nature and wellness living with
                 all the basic amenities nearby
               </p>
-              <div className="md:w-8/12 flex flex-col gap-2">
+              <div className="md:w-8/12 flex flex-col gap-2 font-semibold">
                 <p className="shadow-sm">
                   <span className="text-green">7</span> Acre Development
                 </p>
