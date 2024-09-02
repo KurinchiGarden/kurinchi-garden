@@ -9,7 +9,7 @@ const About = () => {
     },
     {
       image: images.busStand,
-      label: "Bus Stand",
+      label: "Bus Stop",
     },
     {
       image: images.superMarket,
