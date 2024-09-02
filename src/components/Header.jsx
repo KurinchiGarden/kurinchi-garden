@@ -1,6 +1,9 @@
 import React from "react";
 import { FaPhoneVolume } from "react-icons/fa6";
 import images from "../assets";
+// import ImageSlider from "./ImageSlider";
+
+// const homeImages = [images.home, images.home2, images.home];
 
 const Header = () => {
   return (
@@ -38,8 +41,7 @@ const Header = () => {
             <div className="w-full m-5">
               <div className="mb-4">
                 <h3 className="text-2xl font-bold">
-                  Unlock A <br />
-                  Life of Happiness{" "}
+                  Unlock <br />A Life of Happiness{" "}
                 </h3>
               </div>
               <p className="text-sm mb-4">
@@ -59,7 +61,7 @@ const Header = () => {
                 </p>
                 <p className="shadow-sm">
                   <span className="text-green">600 - 3400</span> Sq feet plot
-                  size
+                  sizes
                 </p>
                 <p className="shadow-sm">
                   <span className="text-green">DTCP</span> Approved 540/2023 and{" "}
@@ -70,6 +72,7 @@ const Header = () => {
             </div>
           </div>
           <div className="md:w-2/4 flex justify-center items-center">
+            {/* <ImageSlider images={homeImages} /> */}
             <div className="">
               <img className="rounded-sm" src={images.home} alt="logo" />
             </div>
