@@ -22,7 +22,7 @@ const ImageSlider = ({ images }) => {
             key={index}
             src={image}
             alt={`Slide ${index}`}
-            className="rounded-sm"
+            className="md:rounded-sm"
           />
         ))}
       </div>
