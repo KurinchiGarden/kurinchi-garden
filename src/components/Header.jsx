@@ -3,7 +3,7 @@ import { FaPhoneVolume } from "react-icons/fa6";
 import images from "../assets";
 import ImageSlider from "./ImageSlider";
 
-const homeImages = [images.home1, images.home2, images.home3, images.home4];
+const homeImages = [images.home1, images.home2, images.home3, images.home5];
 
 const Header = () => {
   return (
