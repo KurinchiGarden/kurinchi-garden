@@ -42,7 +42,7 @@ const Header = () => {
             </li>
           </ul>
         </nav>
-        <div className="h-full flex flex-col md:flex-row pb-14">
+        <div className="h-full flex flex-col md:flex-row pb-12">
           <div className="md:w-2/4 flex justify-center items-center flex-col">
             <div className="w-full m-5">
               <div className="mb-4">
