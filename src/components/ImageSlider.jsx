@@ -12,7 +12,7 @@ const ImageSlider = ({ images }) => {
   }, []);
 
   return (
-    <div className="relative w-full sm:w-1/2 lg:w-full h-56 md:h-full overflow-hidden">
+    <div className="relative w-[95%] md:w-full sm:w-1/2 lg:w-full h-56 md:h-full overflow-hidden">
       <div
         className="absolute inset-0 flex transition-transform duration-1000"
         style={{ transform: `translateX(-${currentIndex * 100}%)` }}
@@ -22,7 +22,7 @@ const ImageSlider = ({ images }) => {
             key={index}
             src={image}
             alt={`Slide ${index}`}
-            className="md:rounded-sm object-cover"
+            className="md:rounded-sm"
           />
         ))}
       </div>
