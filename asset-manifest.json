@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/kurinchi-garden/static/css/main.51b16f44.css",
-    "main.js": "/kurinchi-garden/static/js/main.5e883f3b.js",
+    "main.css": "/kurinchi-garden/static/css/main.5fbe1b05.css",
+    "main.js": "/kurinchi-garden/static/js/main.40c2a055.js",
     "static/media/SampleVideo.mp4": "/kurinchi-garden/static/media/SampleVideo.be63c670560dbef4da29.mp4",
     "static/media/KurinchiGardenBrochure.pdf": "/kurinchi-garden/static/media/KurinchiGardenBrochure.87dd4349708035bf87ef.pdf",
-    "static/media/home3.jpg": "/kurinchi-garden/static/media/home3.54e62bfb31a34a1ec6a1.jpg",
+    "static/media/home5.jpg": "/kurinchi-garden/static/media/home5.038a60db31f5c96beeba.jpg",
     "static/media/home1.jpg": "/kurinchi-garden/static/media/home1.32cc9a1f0c658ce25a53.jpg",
-    "static/media/home2.jpg": "/kurinchi-garden/static/media/home2.1beae2a32d456594a6c6.jpg",
     "static/media/hdfc.png": "/kurinchi-garden/static/media/hdfc.fdfe9d0717062ab380ec.png",
     "static/media/pnb.png": "/kurinchi-garden/static/media/pnb.6c3af728b3730bbc4ca8.png",
+    "static/media/home4.webp": "/kurinchi-garden/static/media/home4.c3804a6694ba17335ff5.webp",
+    "static/media/home3.webp": "/kurinchi-garden/static/media/home3.421fc2f202ef5ab040f7.webp",
+    "static/media/home2.webp": "/kurinchi-garden/static/media/home2.de2490bf594b61f1553c.webp",
     "static/media/school.jpg": "/kurinchi-garden/static/media/school.0698599b76f23b5d4162.jpg",
     "static/media/bank.jpg": "/kurinchi-garden/static/media/bank.8332884e5d669614186d.jpg",
     "static/media/superMarket.jpg": "/kurinchi-garden/static/media/superMarket.4c4b27bf5d1297063d32.jpg",
@@ -16,11 +18,11 @@
     "static/media/bob.png": "/kurinchi-garden/static/media/bob.d5e02bf1642711e0a3d3.png",
     "static/media/busStand.jpg": "/kurinchi-garden/static/media/busStand.f3af9b976c5a6ce2eb79.jpg",
     "index.html": "/kurinchi-garden/index.html",
-    "main.51b16f44.css.map": "/kurinchi-garden/static/css/main.51b16f44.css.map",
-    "main.5e883f3b.js.map": "/kurinchi-garden/static/js/main.5e883f3b.js.map"
+    "main.5fbe1b05.css.map": "/kurinchi-garden/static/css/main.5fbe1b05.css.map",
+    "main.40c2a055.js.map": "/kurinchi-garden/static/js/main.40c2a055.js.map"
   },
   "entrypoints": [
-    "static/css/main.51b16f44.css",
-    "static/js/main.5e883f3b.js"
+    "static/css/main.5fbe1b05.css",
+    "static/js/main.40c2a055.js"
   ]
 }
