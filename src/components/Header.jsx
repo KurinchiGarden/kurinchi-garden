@@ -1,9 +1,15 @@
 import React from "react";
 import { FaPhoneVolume } from "react-icons/fa6";
 import images from "../assets";
-// import ImageSlider from "./ImageSlider";
+import ImageSlider from "./ImageSlider";
 
-// const homeImages = [images.home, images.home2, images.home];
+const homeImages = [
+  images.home1,
+  images.home2,
+  images.home3,
+  images.home4,
+  images.home5,
+];
 
 const Header = () => {
   return (
@@ -72,10 +78,7 @@ const Header = () => {
             </div>
           </div>
           <div className="md:w-2/4 flex justify-center items-center">
-            {/* <ImageSlider images={homeImages} /> */}
-            <div className="">
-              <img className="rounded-sm" src={images.home} alt="logo" />
-            </div>
+            <ImageSlider images={homeImages} />
           </div>
         </div>
       </div>

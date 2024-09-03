@@ -30,7 +30,7 @@ const About = () => {
           </h1>
         </div>
         <div className="flex justify-center">
-          <div className="flex flex-col md:flex-row gap-3 w-10/12 md:w-full">
+          <div className="flex flex-col md:flex-row gap-3 w-10/12 sm:w-1/2 sm:h-1/2 md:w-full">
             {amenity.map((x) => {
               return (
                 <div className="md:w-1/3 flex flex-col  overflow-hidden justify-center items-center m-2 rounded-2xl shadow-xl">
