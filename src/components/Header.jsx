@@ -52,7 +52,7 @@ const Header = () => {
                 presenting a harmonious blend of nature and wellness living with
                 all the basic amenities nearby
               </p>
-              <div className="md:w-8/12 flex flex-col gap-2 font-semibold">
+              <div className="md:w-9/12 flex flex-col gap-2 font-semibold">
                 <p className="shadow-sm">
                   <span className="text-green">7</span> Acre Development
                 </p>
