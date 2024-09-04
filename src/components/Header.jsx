@@ -60,13 +60,12 @@ const Header = () => {
                   <span className="text-green">119</span> Premium Plots
                 </p>
                 <p className="shadow-sm">
-                  <span className="text-green">600 - 3400</span> Sq feet plot
-                  sizes
+                  <span className="text-green">600 - 3400</span> Sq.Ft Plots
                 </p>
                 <p className="shadow-sm">
-                  <span className="text-green">DTCP</span> Approved 540/2023 and{" "}
-                  {""}
-                  <span className="text-green">RERA</span> Approved
+                  <span className="text-green">DTCP & RERA</span> Approved
+                  {/* 540/2023 and {""}
+                  <span className="text-green"></span> Approved */}
                 </p>
               </div>
             </div>
