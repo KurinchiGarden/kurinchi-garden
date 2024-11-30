@@ -4,17 +4,18 @@ import Brochure from "../assets/docs/KurinchiGardenBrochure.pdf";
 
 const PartnerShip = () => {
   const banks = [
+    { label: "canara", link: images.canaraBank },
     {
-      label: "hdfc",
-      link: images.hdfc,
+      label: "pnb",
+      link: images.pnb,
     },
     {
       label: "axis",
       link: images.axis,
     },
     {
-      label: "pnb",
-      link: images.pnb,
+      label: "hdfc",
+      link: images.hdfc,
     },
     {
       label: "bob",

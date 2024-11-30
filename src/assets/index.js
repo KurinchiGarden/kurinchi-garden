@@ -11,6 +11,7 @@ import school from "./images/school.jpg";
 import busStand from "./images/busStand.jpg";
 import superMarket from "./images/superMarket.jpg";
 import bank from "./images/bank.jpg";
+import canaraBank from "./images/canaraBank.png";
 
 const images = {
   home1,
@@ -26,6 +27,7 @@ const images = {
   busStand,
   superMarket,
   bank,
+  canaraBank,
 };
 
 export default images;
