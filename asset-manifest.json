@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kurinchi-garden/static/css/main.174b8f37.css",
-    "main.js": "/kurinchi-garden/static/js/main.9d525ec8.js",
+    "main.js": "/kurinchi-garden/static/js/main.51205c7d.js",
     "static/media/SampleVideo.mp4": "/kurinchi-garden/static/media/SampleVideo.be63c670560dbef4da29.mp4",
     "static/media/home5.jpg": "/kurinchi-garden/static/media/home5.038a60db31f5c96beeba.jpg",
     "static/media/KurinchiGardenBrochure.pdf": "/kurinchi-garden/static/media/KurinchiGardenBrochure.eac523a481e78005ad64.pdf",
@@ -16,13 +16,14 @@
     "static/media/superMarket.jpg": "/kurinchi-garden/static/media/superMarket.4c4b27bf5d1297063d32.jpg",
     "static/media/axis.png": "/kurinchi-garden/static/media/axis.97804ffc334370e41dba.png",
     "static/media/bob.png": "/kurinchi-garden/static/media/bob.d5e02bf1642711e0a3d3.png",
+    "static/media/canaraBank.png": "/kurinchi-garden/static/media/canaraBank.fa89183f6586d1799ae8.png",
     "static/media/busStand.jpg": "/kurinchi-garden/static/media/busStand.f3af9b976c5a6ce2eb79.jpg",
     "index.html": "/kurinchi-garden/index.html",
     "main.174b8f37.css.map": "/kurinchi-garden/static/css/main.174b8f37.css.map",
-    "main.9d525ec8.js.map": "/kurinchi-garden/static/js/main.9d525ec8.js.map"
+    "main.51205c7d.js.map": "/kurinchi-garden/static/js/main.51205c7d.js.map"
   },
   "entrypoints": [
     "static/css/main.174b8f37.css",
-    "static/js/main.9d525ec8.js"
+    "static/js/main.51205c7d.js"
   ]
 }
