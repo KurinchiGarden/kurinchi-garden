@@ -12,7 +12,7 @@ function App() {
       <Header />
       <About />
       <Service />
-      <Gallery />
+      {/* <Gallery /> */}
       <PartnerShip />
       <Map />
       <Footer />
